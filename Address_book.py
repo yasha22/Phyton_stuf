@@ -76,12 +76,12 @@ class main():
     lst.createList()
     #menu loop
     menu = {}
-    menu['1'] = "Add a Contact" 
-    menu['2'] = "Delete a Contact"
-    menu['3'] = "Show contacts"
-    menu['4'] = "Sort"
-    menu['5'] = "Save contacts"
-    menu['6'] = "Add saved contacts"
+    menu[1] = "\nAdd a Contact" 
+    menu[2] = "Delete a Contact"
+    menu[3] = "Show contacts"
+    menu[4] = "Sort"
+    menu[5] = "Save contacts"
+    menu[6] = "Add saved contacts"
     
     while True: 
         options = menu.keys()
